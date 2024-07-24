@@ -61,10 +61,11 @@ end
 
 local Button = MainTab:CreateButton({
    Name = "ESP",
+	Callback = function()
 local esplr = game.Players:GetChildren()
 local esp = Instance.new("Highlight")
-Callback = function()
 esp.parent = esplr
+			
 		end,
 })
 		
