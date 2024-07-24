@@ -40,7 +40,7 @@ if _G.infinJumpStarted == nil then
 	_G.infinJumpStarted = true
 	
 	--Notifies readiness
-	game.StarterGui:SetCore("SendNotification", {Title="Youtube Hub"; Text="Infinite Jump Activated!"; Duration=5;})
+	game.StarterGui:SetCore("SendNotification", {Title="Luarx inf jump"; Text="Infinite Jump Activated!"; Duration=5;})
 
 	--The actual infinite jump
 	local plr = game:GetService('Players').LocalPlayer
@@ -59,6 +59,16 @@ end
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "ESP",
+   Callback = function()
+
+local esplr = game.Players:GetChildren()
+local esp = Instance.new("Highlight")
+
+esp.parent = esplr
+		end
+		
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
    Range = {1, 350},
