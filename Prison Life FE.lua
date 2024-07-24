@@ -67,7 +67,7 @@ local esplr = game.Players:GetChildren()
 local esp = Instance.new("Highlight")
 
 esp.parent = esplr
-		end
+		end)
 		
 local Slider = MainTab:CreateSlider({
    Name = "WalkSpeed Slider",
