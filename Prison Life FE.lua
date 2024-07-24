@@ -1,7 +1,7 @@
 local Luarx = loadstring(game:HttpGet('https://raw.githubusercontent.com/laixy1337/LaixyLibrary/main/library.lua'))()
 
 local Window = Luarx:CreateWindow({
-   Name = "🔥 LaixCC | Fe Prison Life",
+   Name = "🔥 Luarx | Fe Prison Life",
    LoadingTitle = "Fe Prison Life",
    LoadingSubtitle = "by Luarx",
    ConfigurationSaving = {
